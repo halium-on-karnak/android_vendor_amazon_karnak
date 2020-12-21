@@ -434,6 +434,7 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
     $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so \
     $(PROPRIETARY_DIR)/vendor/lib/vendor.mediatek.hardware.radio@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@3.0.so \
+    $(PROPRIETARY_DIR)/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so
     $(PROPRIETARY_DIR)/vendor/odm/etc/vintf/manifest_dsds:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_dsds \
     $(PROPRIETARY_DIR)/vendor/odm/etc/vintf/manifest_qsqs:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_qsqs \
     $(PROPRIETARY_DIR)/vendor/odm/etc/vintf/manifest_ss:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_ss \
